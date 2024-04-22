@@ -1,0 +1,69 @@
+void main() {
+  //integer data type
+  int age = 30;
+  print (age);
+  int adeScore = 50;
+  print (adeScore);
+  
+  // double data type 
+  double exchangeRate = 1300.87;
+  double donutPrice = 9.99;
+  print (exchangeRate);
+  print (donutPrice);
+  
+  // string data types
+  String firstName = "John";
+  String lastName = "Adeyemi";
+  print (firstName);
+  print (lastName);
+  
+  //Boolean data type
+  
+  bool isRaining = true;
+  bool isSunny = false;
+  if (isRaining == true){
+    print("it is raining");
+    
+  }
+  if ( isSunny == false ){
+    print ('it is not sunny');
+  }
+  
+  //Variable data type
+  //string
+  var name = 'sogo';
+  //integer
+  var myAge = 54;
+  //double
+  var myCgpa = 4.97;
+  
+  //boolean
+  var itsCold = true;
+   var itsHot = false;
+  
+  print (name);
+  print (myAge);
+  print (myCgpa);
+  
+  if ( itsCold == true ){
+    print('it is cold ');
+    
+  }  
+  if (itsHot == false){
+    print ('it is not hot ');
+    
+  }
+  //String concentation
+  
+  String fullName = firstName +' '+ lastName;
+  print(fullName);
+  
+  String allNames = firstName +' '+ name + ' '+ lastName;
+  print ( allNames);
+  
+  //String interpolation
+  print (' my name is $fullName , i am  $age ');
+  print ( ' i am the best graduating student with a $myCgpa Cgpa');
+  print (' i bought a jam donut in the uk for $donutPrice dollars');
+  
+}
